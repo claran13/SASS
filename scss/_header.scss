@@ -1,0 +1,38 @@
+#header {
+    height: 10vh;
+}
+
+nav {
+    background-color: $colorNav;
+
+}
+
+.nav-link {
+    color: $colorLink !important;
+    font-family: geo;
+  font-size: $texto !important;
+  font-weight: 600;
+  border: 2px solid $colorBorderLink;
+    border-radius: 8px;
+    margin-right: 5px;
+    padding: 2px;
+    background-color: $colorBackLink;
+}
+
+a:hover {
+    scale:1.1;
+    color: #0c0701 !important;
+}
+
+a:active {
+    color: $colorLink !important;
+}
+
+#navActive {
+    color: #0c0c0c !important;
+}
+.logo {
+    width: 5vw;
+    height: 11vh;
+    margin-right: 900px;
+}
